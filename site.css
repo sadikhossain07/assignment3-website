@@ -1,0 +1,104 @@
+h1{
+    font-size: 3rem;
+}
+.testimonial .carousel-inner .carousel-item .content{
+       z-index: 9999;
+    color: #fff;
+    top: 44%;
+    left: 0%;
+    padding: 0 250px;
+}
+section{
+    padding: 70px 0;
+}
+.top h1, .top p{
+color: #fff;
+}
+
+
+.top .body{
+    background: linear-gradient(rgba(12, 13, 14, 0.8), rgba(12, 13, 14, 0.8)), url(images/banner.png) center center;
+    background-size: cover;
+    padding: 250px;
+}
+.bg{
+    background: linear-gradient(20deg, #d9d9d9, transparent);
+}
+
+.faq .faq-list li {
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+}
+.faq .faq-list .icon-help {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    left: 20px;
+    color: #a8dabc;
+
+}
+.faq .faq-list a.collapsed {
+    color: #343a40;
+}
+.faq .faq-list a {
+    display: block;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 0 30px;
+    outline: none;
+    cursor: pointer;
+}
+.faq .faq-list .icon-show, .faq .faq-list .icon-close {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.faq .faq-list a.collapsed .icon-show {
+    display: inline-block;
+}
+.faq .faq-list .icon-show {
+    display: none;
+}
+.accordion-item{
+    border: none;
+    background: #ddd;
+    margin-bottom: 25px;
+}
+.accordion-button:not(.collapsed){
+    background: none;
+}
+.accordion-header a{
+    background: #ddd;
+    padding: 26px;
+}
+footer {
+    background-color: black;
+    
+  }
+  footer .subs h5{
+
+    color: #fff;
+  }
+footer label {
+    color: #fff;
+}
+
+@media (max-width: 991px){
+    .top .body {
+       
+        padding: 50px 20px;
+    }
+    .testimonial .carousel-inner .carousel-item .content {
+        z-index: 9999;
+        color: #fff;
+        top: 4%;
+        left: 0%;
+        padding: 0 20px;
+    }
+}
